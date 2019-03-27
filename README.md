@@ -46,3 +46,7 @@ heroku login
 heroku create {proyect-name}
 ```
 
+3. Push changes to heroku remote branch (created automatically in the previous step)
+```sh
+git push heroku master
+```
